@@ -3,3 +3,7 @@ bin/
 
 # Ignore compiled files
 *.class
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
