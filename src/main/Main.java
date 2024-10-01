@@ -21,7 +21,7 @@ public class Main {
         /****************************************************
         *   Specify the number of colors for quantization   *
         ****************************************************/
-        int numColors = 15; 
+        int numColors = 8; 
 
         try {
             System.out.println(numColors + " colors for quantization");
@@ -51,7 +51,7 @@ public class Main {
         final long end = System.nanoTime();
         long seconds = (end - start) / 1000000000;
         if (seconds >= 60) {
-            int minutes = (int) seconds % 60;
+            int minutes = (int) seconds / 60;
             seconds -= minutes * 60;
             String output = String.format("Total execution time: %dm %ds", minutes, seconds);
             System.out.println(output);
