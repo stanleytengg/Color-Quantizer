@@ -1,5 +1,5 @@
 # Color Quantizer
-
+## Overview
 This Java application was developed for a Data Structures and Algorithms 2 project on color quantization. It processes a BMP image, reduces its color palette, and generates both a quantized image and an array representation of the results.
 
 ## Setup and Usage
